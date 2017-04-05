@@ -21,7 +21,11 @@ public class FizzBuzz {
         {
             resultado = "Buzz";
         }
-        return resultado;
+        if (n%3==0 && n%5==0)
+        {
+            resultado = "FizzBuzz";
+        }
+         return resultado;
     
     }
     }
